@@ -1,5 +1,6 @@
 import { v4 } from "uuid";
 import { IChatData } from "../models/chat.interface";
+export const PinnedChatIds: string[] = [];
 export const ChatData: IChatData[] = [
   {
     chatId: v4(),
